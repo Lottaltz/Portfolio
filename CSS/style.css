@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF8DC;
+}
+main{
+    margin-top: 5rem;
+}
+nav{
+    width: 100%;
+    height: auto;
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.nav-menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.logo-link{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img{
+    width: 210px;
+    height: 60px;
+}
+
+.nav-girl{
+    width: 4rem;
+}
+
+.nav-icon{
+    font-size: 1.5rem;
+}
+
+.nav-icon i:first-child:hover{
+    color: red;
+}
+.nav-icon i:nth-child(2):hover{
+    color: rgb(123, 0, 255);
+}
+.nav-icon i:last-child:hover{
+    color: rgb(0, 60, 255);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
