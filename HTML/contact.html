@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/CSS/style.css">
     <title>Lottazdev</title>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav>
@@ -15,12 +17,12 @@
             <img src="/assets/icons/logo.PNG" alt="logo website" class="nav-img">
         </div>
         <ul class="nav-menu">
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutme.html" class="nav-link">About Me</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
         <div class="logo-link">
-            <div class="nav-icon">
+            <div class="nav-icon">  
                 <i class="fa fa-google-plus-square"></i>
                 <i class="fa fa-github-square"></i>
                 <i class="fa fa-linkedin-square"></i>
@@ -28,8 +30,40 @@
             <img src="/assets/icons/icon-girl.png" alt="girl image" class="nav-girl">
         </div>
     </nav>
-    <main>
-        <h1>This is contact page</h1>
+    <main class="contact">
+        <section class="quote">
+            <p>"Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable."</p>
+            <p>—John Wooden</p>
+        </section>
+            <section class="contact-container">
+                <div class="contact-form">
+                    <form>
+                        <h2>Contact Me</h2>
+                        <div class="fullname">
+                            <label for="fullname">Name</label>
+                            <input type="text" name="fullname" id="fullname" placeholder="Kridchasorn Pramsrilo">
+                        </div>
+                        <div class="email">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email" placeholder="Lottazdev@example.com">
+                        </div>
+                        <div class="message">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="1" placeholder="Hi, Lotta &#128075;"></textarea>
+                        </div>
+                        <button type="submit">Send message</button>
+                    </form>
+                </div>
+                <img src="/assets/images/girl-relax.png" alt="">
+            </section>
+            <div class="break-section" style="margin-top: 0;"></div>
     </main>
+    <footer>
+        <p>&copy; 2023 All rights reserved | Kridchasorn Pramsrilo</p>
+    </footer>
+
+    <!-- script -->
+    <script src="/utills/isCurrentPage.js"></script>
 </body>
+
 </html>
