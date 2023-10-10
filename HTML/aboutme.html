@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/icons/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://kit.fontawesome.com/b57f92095a.js" crossorigin="anonymous"></script>
     <title>Lottazdev</title>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav>
@@ -15,9 +18,9 @@
             <img src="/assets/icons/logo.PNG" alt="logo website" class="nav-img">
         </div>
         <ul class="nav-menu">
-            <li><a href="/HTML/aboutme.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutme.html" class="nav-link">About Me</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
         <div class="logo-link">
             <div class="nav-icon">
@@ -29,10 +32,182 @@
         </div>
     </nav>
     <main>
-        <h1>This is about me page</h1>
+        <section class="about-me">
+            <div class="about-img">
+                <img src="/assets/images/girl-image-hero.png" alt="girl who use computer">
+            </div>
+            <div class="about-message">
+                <p>Hello &#128075;</p>
+                <p>I am Kridchasorn Pramsrilo, but you can call me "Lotta".</p>
+                <p>I am a <span class="about-job">Web Developer</span></p>
+                <p>I can do both <span class="front-end">Front-end</span> and <span class="back-end">Back-end</span>.
+                </p>
+                <p>I love Learning and always learn new things.</p>
+                <div class="download-cv">
+                    <button onclick="window.open('/assets/file/CV-Full-Stack.pdf');">Download CV <i class="fa fa-download"></i></button>
+                </div>
+            </div>
+        </section>
+        <div class="break-section"></div>
+        <section class="about-skills">
+            <h2>My Current Skills</h2>
+            <div class="skill-container">
+                <div class="tech-skill-container">
+                    <h3 class="tech-title">Technical Skills</h3>
+                    <div class="core-skill">
+                        <div class="hard-skill">
+                        <div class="title">
+                        <h3>Core Skills</h3>
+                        </div>
+                        <div class="text-techskill">
+                            <div class="skill">
+                            <p>HTML </p><i class="fa-brands fa-html5 fa-7x " style="color:rgb(241, 65, 17); -webkit-text-stroke: 1.5px black;"></i>
+                            </div>
+                            <div class="skill">
+                            <p>CSS </p><i class='fab fa-css3-alt fa-7x' style="color:rgb(17, 47, 241); -webkit-text-stroke: 1.5px black;"></i>
+                            </div>
+                            <div class="skill">
+                            <p>JavaScript </p><i class="fa-brands fa-square-js fa-7x" style="color:rgb(255, 234, 0); -webkit-text-stroke: 1.5px black;"></i>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tech-photo">
+                            <img src="/assets/images/girl-computer.png" alt="girl who working">
+                        </div>
+                    </div>
+                    <div class="framework-container">
+                        <div class="frameworks">
+                            <div class="title">
+                            <h3>Frameworks</h3>
+                            </div>
+                        <div class="text-framework">
+                            <div class="item-box">
+                                <div class="framework-list">
+                                    <p>React.js </p>
+                                    <i class="fa-brands fa-react fa-7x" style="color:aqua; -webkit-text-stroke: 1.5px black;"></i>
+                                </div>
+                                <div class="framework-list">
+                                    <p>Bootstrap </p>
+                                    <i class="fa-brands fa-bootstrap fa-7x" style="color:rgb(132, 0, 255); -webkit-text-stroke: 1.5px black;"></i>
+                                </div>
+                                <div class="framework-list">
+                                    <p>Tailwind </p>
+                                    <img src="/assets/images/tailwind.png" alt="" style="width: 6.5rem; height: 6.5rem; border-radius: 5px; margin-top: 5px; margin-bottom: 6px;" >
+                                </div>
+                            </div>
+                            <div class="item-box">
+                                <div class="framework-list">
+                                    <p>Node.js </p>
+                                    <i class="fa-brands fa-node fa-6x"></i>
+                                </div>
+                            <div class="framework-list">
+                                <p>Express.js </p>
+                                <img src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png" alt="" style="width: 6rem; height: 6rem; margin-bottom: 6px;">
+                            </div>
+                            <div class="framework-list">
+                                <p>MongoDB </p>
+                                <img src="/assets/images/mongodb.png" alt="" style="width: 6.5rem; height: 6.5rem; border-radius: 5px; margin-top: 5px; margin-bottom: 6px;">
+                            </div>
+                            </div>
+                            <div class="item-box">
+                            <div class="framework-list">
+                                <p>Mongoose </p>
+                                <img src="https://miro.medium.com/v2/resize:fit:648/1*iDvsmUwzZQxJSKdL0xzwIA.png" alt="" style="width: 6.5rem; height: 6.5rem; border-radius: 5px; margin-top: 5px; margin-bottom: 6px;">
+                            </div>
+                            <div class="framework-list">
+                                <p>SQL </p>
+                                <i class="fa-solid fa-database fa-7x"></i>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="framework-photo">
+                            <img src="/assets/images/girl-study.png" alt="girl who study">
+                        </div>
+                    </div>
+                    <div class="tools">
+                        <div class="tool-container">
+                            <div class="title">
+                                <h3>Tools</h3>
+                            </div>
+                            <div class="text-tools">
+                            <div class="item-box">
+                            <div class="tool-list">
+                                <p>Git </p>
+                                <i class="fa-brands fa-git-alt fa-7x" style="color: rgb(255, 77, 0); -webkit-text-stroke: 2px black;"></i>
+                            </div>
+                            <div class="tool-list">
+                                <p>Github </p>
+                                <i class="fa-brands fa-github fa-7x"></i>
+                            </div>
+                            <div class="tool-list">
+                                <p>GitLab </p>
+                                <i class="fa-brands fa-gitlab fa-7x" style="color: rgb(255, 119, 0); -webkit-text-stroke: 2px black;"></i>
+                            </div>
+                            </div>
+                            <div class="item-box">
+                            <div class="tool-list">
+                                <p>Vercel </p>
+                                <img src="https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png" alt="" style="width: 6rem; height: 6rem; margin-bottom: 6px;">
+                            </div>
+                            <div class="tool-list">
+                                <p>Figma </p>
+                                <i class="fa-brands fa-figma fa-7x"></i>
+                            </div>
+                            <div class="tool-list">
+                                <p>Photoshop </p>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png?20200616073617" alt="" style="width: 6rem; height: 6rem; margin-bottom: 6px;">
+                            </div>
+                            </div>
+                            <div class="tool-list">
+                                <p>Netlify </p>
+                                <img src="https://static-00.iconduck.com/assets.00/netlify-icon-512x512-p4tqk3ec.png" alt=""style="width: 6rem; height: 6rem; margin-bottom: 6px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tool-photo">
+                        <img src="/assets/images/girl-work.png" alt="girl who practice">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="soft-skill-container">
+                <div class="soft-skill-item">
+                        <div class="title">
+                            <h3>Soft Skills</h3>
+                        </div>
+                    <div class="soft-skill-text">
+                        <ul>
+                            <li>Active Listening</li>
+                            <li>Interpersonal Communication</li>
+                            <li>Collaboration</li>
+                            <li>Decission Making</li>
+                            <li>Teamwork</li>
+                            <li>Time Management</li>
+                            <li>Personal Responsibility</li>
+                            <li>Proactiveness</li>
+                            <li>Problem Solving</li>
+                            <li>Empathy</li>
+                            <li>Negotiation</li>
+                            <li>Customer Service</li>
+                            <li>Service Mind</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="photo-soft-skill">
+                    <img src="/assets/images/girl-working.png" alt="">
+                </div>
+                </div>
+            </div>
+        </section>
+        <div class="break-section" style="margin-bottom: 5rem;"></div>
     </main>
     <footer>
         <p>&copy; 2023 All rights reserved | Kridchasorn Pramsrilo</p>
     </footer>
+
+    <!-- script -->
+    <script src="/utills/isCurrentPage.js"></script>
+   
 </body>
 </html>

@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="/assets/icons/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://kit.fontawesome.com/b57f92095a.js" crossorigin="anonymous"></script>
     <title>Lottazdev</title>
 </head>
 <body>
@@ -15,9 +16,9 @@
             <img src="/assets/icons/logo.PNG" alt="logo website" class="nav-img">
         </div>
         <ul class="nav-menu">
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutme.html" class="nav-link">About Me</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
         <div class="logo-link">
             <div class="nav-icon">
@@ -28,8 +29,42 @@
             <img src="/assets/icons/icon-girl.png" alt="girl image" class="nav-girl">
         </div>
     </nav>
-    <main>
-        <h1>This is portfolio page</h1>
+    <main >
+        <section class="portfolio">
+            <h1>My Portfolio</h1>
+            <div class="navigation">
+                <div class="left-side">
+                    <i class="fa fa-arrow-circle-left fa-lg" ></i>
+                    <a href="aboutme.html">Back</a>
+                </div>
+                <div class="right-side">
+                    <a href="/HTML/cert.html">Certification</a>
+                </div>
+            </div>
+            <div class="port-body">
+                <div class="container-project">
+                    <div class="project-item">
+                        <img src="/assets/images/colmar-project.png" alt="colmar project">
+                        <div class="project-description">
+                            <h3>Colmar Project</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nesciunt ab ipsam corporis vitae repudiandae dicta minima, officiis voluptas repellendus esse repellat, earum error quas in totam illum veniam iure!</P>
+                            <div class="preview">
+                                <a href="https://colmar-project-theta.vercel.app/">Project Demo</a>
+                                <a href="https://github.com/Lottaltz/Colmar-project">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img src="/assets/images/colmar-project.png" alt="colmar project">
+                    </div>
+                </div>
+            </div>
+    </section>
     </main>
+    <footer>
+        <p>&copy; 2023 All rights reserved | Kridchasorn Pramsrilo</p>
+    </footer>
+    <!-- script -->
+    <script src="/utills/isCurrentPage.js"></script>
 </body>
 </html>
