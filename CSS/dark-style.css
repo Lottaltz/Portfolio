@@ -101,18 +101,18 @@ nav{
 .nav-icon{
     font-size: 1.5rem;
 }
-.nav-icon i:first-child:hover{
+.gmail:hover{
     color: red;
 }
-.nav-icon i:nth-child(2):hover{
-    color: rgb(123, 0, 255);
-}
-.nav-icon i:last-child:hover{
+.linkedin:hover{
     color: rgb(0, 60, 255);
+}
+.github:hover{
+    color: rgb(123, 0, 255);
 }
 nav a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 nav a:hover{
     text-decoration: underline wavy #4f5fee 0.1rem;
@@ -121,6 +121,7 @@ nav a:hover{
     font-weight: bolder;
 }
 .nav-link[aria-current="page"]{
+    color: white;
     background-color: rgb(0, 68, 255);
     padding: 8px 14px;
     border: 2px solid rgb(255, 255, 255);
@@ -686,7 +687,7 @@ form button:hover{
 }
 /* footer */
 footer{
-    color: #fff;
+    color: #000000;
     width: 100%;
     height: auto;
     padding: 1em;
