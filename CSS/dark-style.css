@@ -475,7 +475,19 @@ nav a:hover{
 .project-description h3{
     font-size: 2rem;
 }
-
+.project-description a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255,196,0);
+    padding: .5rem 1rem;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+}
+.project-description a:hover{
+    color: white;
+    background-color: #002aff;
+    
+}
 /* contact page */
 .contact{
     display: flex;
