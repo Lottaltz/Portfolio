@@ -318,6 +318,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     padding: 8px;
+    gap: 10px;
 }
 .tool-list p{
     font-size: 1.5rem;
@@ -348,7 +349,7 @@ nav a:hover{
 .soft-skill-text{
     margin-top: 2rem;
 }
-.soft-skill-item{
+.soft-skill-item {
     font-size: 1.5rem;
     text-align: left;
     line-height: 1.5;
@@ -529,6 +530,7 @@ nav a:hover{
     align-items: center;
     border-radius: 20px;
     box-shadow: 3px 3px 5px #5f5f5fab;
+    z-index: -10;
 }
 .contact-form::before{
     content: "";
