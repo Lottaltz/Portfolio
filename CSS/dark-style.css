@@ -769,6 +769,12 @@ footer{
     width: 80%;
 }
 
+@media only screen and (max-width: 1024px){
+    .about-img img{
+        width: 400px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .bg-welcome{
         height: 400px
